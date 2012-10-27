@@ -1,6 +1,5 @@
-// Author: Chen Junting
-// Date: 2012-01-01
-// Copyright c Chen Junting 2012
+// Copyright (c) 2012 Chen Junting
+// Distributed under the GNU GPL v3. 
 
 import weibo4j.Users;
 import weibo4j.Weibo;

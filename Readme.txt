@@ -43,4 +43,6 @@ You should now see the data collection process is running. Good luck.
 
 Author: Chen Junting
 Last modified: 2012-06-20
-Copyright (c) Chen Junting 2012
+
+Copyright (c) 2012 Chen Junting
+Distributed under GNU GPL v3.
