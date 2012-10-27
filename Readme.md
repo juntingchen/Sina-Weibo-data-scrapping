@@ -1,8 +1,10 @@
-# Getting Start with Weibo Data Collection
+Getting Start with Weibo Data Collection
+========================================
 
 This tutorial is to help you setup the environment to collect data from Weibo using a Java program. The program follows OAuth2.0 authorization mechanism to get access to the Weibo data. It fetches data through Weibo API and stores the data to the MySQL database. A simple analysis tool for data processing is also developed in the program.
 
-# What to you need to get started?
+What to you need to get started?
+--------------------------------
 1. A Weibo developer account. 
 Please go to http://open.weibo.com/ to create (update) your developer account and create an application (站内应用). After creating your application, you need to mark down your 'appkey' and 'app_secret'.
 
@@ -10,7 +12,8 @@ Please go to http://open.weibo.com/ to create (update) your developer account an
 
 3. MySQL installed.
 
-# How to setup? 
+How to setup? 
+--------------
 1. Import the project "WeiboCrawler" in the attached package to your Java IDE (Eclipse, here).
 
 2. Connect Java with MySQL
@@ -33,7 +36,8 @@ Note that, you do not need to download the Java SDK as mentioned in the tutorial
 a) Locate the file 'examples/(default package)/WeiboAnalysis.java'.
 
 b) Configure the main() function
-Specify the value 'access_token' and 'Entrance_user_id' in the main() function. The 'Entrance_user_id' is the UID, a unique identifier for each Weibo user. You can randomly specify one. Please read the Weibo API documents for more details. (http://open.weibo.com/wiki/%E9%A6%96%E9%A1%B5) 
+Specify the value 'access_token' and 'Entrance_user_id' in the main() function. The 'Entrance_user_id' is the UID, a unique identifier for each Weibo user. You can randomly specify one. Please read the [Weibo API] documents for more details. 
+[Weibo API]:http://open.weibo.com/wiki/%E9%A6%96%E9%A1%B5
 
 ** A suggestion is that to choose the user with a small number of followings and followers (around hundreds) to start with.
 
